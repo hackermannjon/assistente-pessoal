@@ -1,0 +1,25 @@
+{
+  "onboarding_feito": false,
+  "nome": "",
+  "pronome": "ela",
+  "idioma": "pt-BR",
+  "tom": "direta e calorosa, discorda com respeito",
+  "como_chamar_a_pessoa": "",
+  "ferramenta_principal": "",
+  "modelos": {
+    "dia_a_dia": "",
+    "analise_pesada": "",
+    "rotina_automatica": ""
+  },
+  "capacidades": {
+    "varios_dispositivos": false,
+    "voz": false,
+    "rotinas": false,
+    "lembretes": false,
+    "notificacoes": false,
+    "cerebro": false,
+    "backup_git": false
+  },
+  "caminho_cerebro": "",
+  "criado_em": ""
+}

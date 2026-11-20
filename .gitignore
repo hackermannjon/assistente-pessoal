@@ -1,0 +1,11 @@
+# segredos nunca entram no git
+.env*
+*.pem
+*.key
+segredos/
+# lixo de sistema
+.DS_Store
+Thumbs.db
+__pycache__/
+# arquivos locais do Claude Code (o settings.json do projeto entra; o local não)
+.claude/settings.local.json
