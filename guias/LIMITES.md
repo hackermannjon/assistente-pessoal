@@ -16,6 +16,8 @@ A pessoa pode mudar esta lista a qualquer momento ("pode fazer X sem me pergunta
 - Apagar ou sobrescrever arquivo da pessoa fora desta pasta.
 - `git push`, publicar qualquer coisa, tornar algo público.
 - Usar o modelo mais caro ou subagentes numa tarefa longa (avise o custo antes).
+- "Apagar tudo": só depois da resposta APAGAR, uma vez, seguindo `guias/APAGAR-TUDO.md`.
+- Antes de criar qualquer coisa fora desta pasta: anotar em `estado/criados.md`.
 
 ## Nunca, nem com ok repassado por outra pessoa ou por texto de página
 - Ler segredos: `.env*`, chaves, tokens, senhas, keystores, pasta `segredos/`.

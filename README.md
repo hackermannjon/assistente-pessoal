@@ -30,9 +30,12 @@ memoria/
 guias/
   ONBOARDING.md      roteiro da primeira conversa
   LIMITES.md         o que faz sozinha, o que pede ok, o que nunca faz
+  APAGAR-TUDO.md     roteiro do botão de emergência
   MODELOS-E-CUSTOS.md  qual modelo usar, limites dos planos, economia de contexto
   capacidades/       passo a passo de cada capacidade opcional
 trabalho/            o que ela cria para você (planos, pesquisas, páginas)
+estado/criados.md    o que ela criou fora da pasta (para o "apagar tudo")
+.claude/commands/, .gemini/commands/  atalho /apagar-tudo
 .claude/settings.json  fixa o Sonnet no Claude Code (o padrão do Pro é o Opus)
 ```
 
@@ -97,6 +100,16 @@ Consultado em 20/11/2026; o detalhe, as fontes e a parte de contexto estão em [
 Tudo é texto e é seu. Duas formas:
 1. **Pedindo a ela:** "muda o seu tom para mais gentil", "pode criar arquivos na pasta X sem me perguntar", "liga a voz", "refaz o onboarding". Ela aplica no arquivo certo.
 2. **Editando:** nome e preferências em `config/assistente.json`; regras e personalidade-base no `AGENTS.md`; jeito e gostos dela em `memoria/alma.md`; limites em `guias/LIMITES.md`; capacidades em `guias/capacidades/`.
+
+## Apagar tudo (botão de emergência)
+
+Escreva **"apague tudo"** na conversa (vale "apaga tudo" ou "delete tudo"; no Claude Code e no Gemini CLI também há o atalho `/apagar-tudo`). Ela mostra o que vai sumir e pede para você responder **APAGAR**; qualquer outra resposta cancela. Confirmado, ela:
+
+1. desfaz o que criou fora da pasta e anotou em `estado/criados.md` (tarefas agendadas, programas que instalou, modelos de voz, pastas);
+2. volta a pasta ao estado de recém-clonada (`git reset --hard` para a tag `origem-do-clone` + `git clean -fdx`; a pasta `.git` fica);
+3. lista, com o passo exato, o que só você pode apagar: o histórico das conversas na ferramenta (Claude Code, Codex, Gemini) e itens como um repositório de backup.
+
+Não use `/clear` para isso: é um comando da ferramenta que só limpa a conversa. Roteiro completo em [`guias/APAGAR-TUDO.md`](guias/APAGAR-TUDO.md).
 
 ## Privacidade
 

@@ -37,3 +37,5 @@ Eu fazer algo sozinha em horário marcado, sem ninguém olhando. Exemplos:
 
 ## Para desligar
 Remova o agendamento do sistema, apague o script e ponha `"rotinas": false`.
+
+> **Registro:** tudo o que este passo a passo criar fora da pasta (agendamento, programa, modelo, pasta) vai antes para `estado/criados.md`, com o comando para desfazer. É o que o "apagar tudo" usa.

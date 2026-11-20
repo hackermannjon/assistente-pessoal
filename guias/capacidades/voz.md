@@ -40,3 +40,5 @@ Pergunte primeiro: "você já tem um modelo de voz (um serviço, um modelo local
 
 ## Para desligar
 Tire a linha de voz do AGENTS.md e ponha `"voz": false`.
+
+> **Registro:** tudo o que este passo a passo criar fora da pasta (agendamento, programa, modelo, pasta) vai antes para `estado/criados.md`, com o comando para desfazer. É o que o "apagar tudo" usa.

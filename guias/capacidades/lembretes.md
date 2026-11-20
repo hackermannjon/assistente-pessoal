@@ -25,3 +25,5 @@ Eu transformar "me lembra de X na quinta às 10h" num lembrete de verdade.
 
 ## Para desligar
 Ponha `"lembretes": false`.
+
+> **Registro:** tudo o que este passo a passo criar fora da pasta (agendamento, programa, modelo, pasta) vai antes para `estado/criados.md`, com o comando para desfazer. É o que o "apagar tudo" usa.

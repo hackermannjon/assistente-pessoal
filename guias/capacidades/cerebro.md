@@ -19,3 +19,5 @@ Se a pessoa também usa o repositório "cérebro pessoal" (diário com análise,
 
 ## Para desligar
 Tire a linha do AGENTS.md e ponha `false` no config.
+
+> **Registro:** tudo o que este passo a passo criar fora da pasta (agendamento, programa, modelo, pasta) vai antes para `estado/criados.md`, com o comando para desfazer. É o que o "apagar tudo" usa.
